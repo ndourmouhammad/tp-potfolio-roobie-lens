@@ -30,6 +30,9 @@ header {
 .navbarr {
     padding: 10px;
 }
+.navbarr:hover {
+    text-decoration: underline;
+}
 .presentation {
     margin-top: 10px;
     padding-bottom: 20px;
@@ -37,7 +40,7 @@ header {
 }
 .image-portrait img{
     max-width: 100%;
-    margin: 5px 32px 5px 32px;
+    margin: 25px 32px 5px 32px;
 }
 .biographie p {
     font-size: 25px;
@@ -65,4 +68,55 @@ header {
     margin-left: 130px;
     display: inline;
     margin-bottom: -50px;
+}
+
+.projet h1{
+    text-align: center;
+    margin: 15px;
+    color: #1F2039;
+}
+
+.projet img {
+max-width: 100%;
+margin: 25px 75px ;
+}
+
+.parlons-projet {
+    background-color: #1F2039;
+    color: #fcfcfc;
+    padding: 15px;
+}
+.parlons-projet h1 {
+    color: #A5B4FC;
+    text-align: center;
+}
+input, textarea {
+    width: 100%;
+}
+.name, .email, .message{
+    margin: 10px;
+}
+
+button {
+    border: #1F2039 solid 1px;
+    background-color: #A5B4FC;
+    color: #fcfcfc;
+    margin: 30px 180px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #666670;
+}
+
+footer {
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.social-media a {
+    margin-left: 15px;
 }
